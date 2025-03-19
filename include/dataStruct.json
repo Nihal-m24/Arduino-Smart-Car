@@ -1,0 +1,28 @@
+{
+    "registeredCars": ["CA-216"],
+    "cars":{
+        "CA-216": {
+            "IPAddress":{
+                "IP": "192.168.X.X"
+            },
+            "carData": {
+                "carMode" : 0,
+                "carDirection": "stop",
+                "forwardSpeed": 0,
+                "backwardSpeed": 0,
+                "rightSpeed": 0,
+                "leftSpeed": 0,
+                "directionsToFollow": [], 
+                "lastUpdate": 0
+            }, 
+
+            "connections": {
+                "webConnected" : false,
+                "mobileConnected" : false,
+                "ps4Connected" : false
+            }
+            
+        }
+    
+    }
+}
